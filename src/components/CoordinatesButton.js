@@ -11,7 +11,7 @@ export default class CoordinatesButton extends Component{
 
     render(){
         return(
-            <button onClick = {this.getCoordinates}/>
+            <button onClick = {this.getCoordinates}>Click me to get coordinates</button>
         )
     }
 }
